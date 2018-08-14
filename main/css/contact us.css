@@ -1,0 +1,104 @@
+.block1 {
+    background-image: none;
+    height: 1035px;
+}
+.block1__header {
+    color: #83a7a5;
+}
+.nav-link {
+    color: #83a7a5;
+}
+.nav-link:hover {
+    opacity: 1;
+    color: black;
+}
+.block1__header__nav__borderedLink {
+    background-color: #6fb048;
+}
+.block1__header__logo {
+    color: #0f5f5c;
+}
+.block1__header__line {
+    border-left: 1px solid #83a7a5;
+}
+.block1__body__img {
+    width: 1349px;
+    height: 360px;
+    position: absolute;
+    top: 75px;
+    left: 0;
+}
+.block2__head {
+    margin-top: 440px;
+}
+.block2__head__title {
+    color: #0f5f5c;
+}
+.block1__body__ordering {
+    color: #83a7a5;
+}
+.block1__body__ordering__inputContainer {
+    margin-left: 65px;
+    margin-top: 40px;
+}
+.block1__body__ordering__input {
+    color: #83a7a5;
+    font-size: 13px;
+    padding-left: 15px;
+    margin-top: 25px;
+    width: 455px;
+    height: 40px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+    border: 1px solid #c1d3d2;
+}
+.block1__body__ordering__inputMessage {
+    height: 110px;
+}
+.block1__body__ordering__inputMessage::placeholder {
+
+}
+.block1__body__ordering__btn {
+    width: 170px;
+    height: 43px;
+    border-radius: 2px;
+    border: 0;
+    background-color: #6fb048;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.block1__body__ordering__border {
+    margin-left: 175px;
+    margin-top: 65px;
+    width: 308px;
+    height: 245px;
+    border: 2px dashed #c1d3d2;
+    background-color: #ffffff;
+    padding-top: 25px;
+    padding-left: 34px;
+}
+.block1__body__ordering__border__title {
+    color: #0f5f5c;
+    font-size: 20px;
+}
+.block1__body__ordering__border__address {
+    font-size: 14px;
+    font-weight: 500;
+}
+.block1__body__ordering__border__telephone {
+    font-size: 14px;
+    font-weight: 500;
+}
+.block1__body__ordering__border__email {
+    font-size: 14px;
+    color: #0f5f5c;
+    font-weight: 500;
+}
+.a_black {
+    color: #0f5f5c;
+}
+.a_black:hover {
+    color: #0f5f5c;
+}

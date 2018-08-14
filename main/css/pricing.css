@@ -1,0 +1,67 @@
+.block1 {
+    background-image: none;
+    background-color: #eef1ec;
+    height: 680px;
+}
+.block1__header {
+    color: #83a7a5;
+}
+.nav-link {
+    color: #83a7a5;
+}
+.nav-link:hover {
+    opacity: 1;
+    color: black;
+}
+.block1__header__nav__borderedLink {
+    background-color: #6fb048;
+}
+.block1__header__logo {
+    color: #0f5f5c;
+}
+.block1__header__line {
+    border-left: 1px solid #83a7a5;
+}
+.block1__body {
+    margin-top: 63px;
+}
+.block6__head {
+    margin-top: 0;
+    margin-left: 0;
+}
+.block6__body__priceBlock {
+    margin-left: 133px;
+    margin-top: 40px;
+}
+.block6__head__title {
+    font-size: 28px;
+    color: #0f5f5c;
+}
+.block6__head__text {
+    color: #83a7a5;
+    font-size: 13px;
+}
+.block1__footerText {
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.block6__body__plansBlock {
+    margin-top: 63px;
+    margin-left: 208px;
+}
+.block6__body__plansBlock__title {
+    font-size: 29px;
+}
+.block6__body__plansBlock__line {
+    margin-top: 5px;
+}
+.block6 {
+    height: 470px;
+}
+.a_black {
+    color: #0f5f5c;
+}
+.a_black:hover {
+    color: #0f5f5c;
+}

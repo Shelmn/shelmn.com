@@ -1,0 +1,23 @@
+{
+  "name": "myaoo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "nexmo": "^2.3.2",
+    "nodemailer": "^4.6.7",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "sendgrid": "^5.2.3"
+  }
+}
