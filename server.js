@@ -130,4 +130,4 @@ function phoneGet(phone, msg) {
     });
 }
 
-http.listen(5000, () => console.log('server started on 5000 port'));
+http.listen(process.env.PORT || 5000, () => console.log('server started on 5000 port'));
