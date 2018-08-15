@@ -30,4 +30,16 @@
         margin-top: 143px;
         margin-left: 140px;
     }
+    .block6__head {
+        margin-left: 175px;
+    }
+    .block6__body__priceBlock {
+        margin-left: 280px;
+    }
+    .block6__body__plansBlock {
+        margin-left: 145px;
+    }
+    .block6__body__plansBlock__plans__plan {
+        font-size: 12px;
+    }
 }
