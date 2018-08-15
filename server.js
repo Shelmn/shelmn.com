@@ -34,9 +34,9 @@ app.post('/email', function (req, res) {
 })
 function email(obj) {
     const transporter = nodemailer.createTransport({
-        service: 'gmail',
+        service: 'Gmail',
         auth: {
-            user: 'nvirbnnhh@gmail.com',
+            user: 'shelmn.com@gmail.com',
             pass: 'pidargrb'
         }
     });
@@ -61,7 +61,7 @@ function confirm(obj) {
     const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: 'nvirbnnhh@gmail.com',
+            user: 'shelmn.com@gmail.com',
             pass: 'pidargrb'
         }
     });
@@ -86,7 +86,7 @@ function mailGet (obj) {
         const transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
-                user: 'nvirbnnhh@gmail.com',
+                user: 'shelmn.com@gmail.com',
                 pass: 'pidargrb'
             }
         });
@@ -114,7 +114,7 @@ function phoneGet(phone, msg) {
         apiSecret: '6RTUIdzVMIeTjq3B'
     });
 
-    const from = "Kirill";
+    const from = "Shelmn";
     const to = phone;
     const text = "You text this text: "+msg+"\n";
 
