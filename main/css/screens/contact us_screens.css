@@ -110,7 +110,7 @@
          margin-left: 30px;
      }
     .block1__body__ordering__input {
-        margin-top: 0;
+        margin-top: 15px;
         width: 345px;
         height: 40px;
     }
@@ -125,6 +125,6 @@
         margin-top: 0;
     }
     .block1__body__img {
-        width: 781px;
+        width: 783px;
     }
 }
