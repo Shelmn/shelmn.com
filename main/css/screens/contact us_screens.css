@@ -33,3 +33,92 @@
         margin-top: 82px;
     }
 }
+@media screen and (max-width: 800px) {
+    .block1__content {
+        padding-left: 20px;
+    }
+    .block1__header__nav {
+        margin-left: 80px;
+    }
+    .block1__header__nav__borderedLink {
+        margin-left: 0;
+        width: 102px;
+    }
+    .nav-link {
+        font-size: 10px;
+    }
+    .block1__header__nav__borderedLink__text {
+        font-size: 9px;
+    }
+    .block1__header__logo {
+        font-size: 20px;
+    }
+    .block1__header__line {
+        height: 15px;
+        margin-left: 10px;
+    }
+    .block1__header__phoneImg {
+        margin-left: 5px;
+    }
+    .block1__header__phoneImg__img {
+        width: 11px;
+    }
+    .block1__header__phoneNum {
+        margin-left: 6px;
+        font-size: 9px;
+    }
+    .block1__body__title {
+        font-size: 30px;
+    }
+    .block1__body__text {
+        font-size: 12px;
+    }
+    .block1__body__btn {
+        width: 170px;
+        height: 42px;
+        font-size: 11px;
+    }
+    .text_title {
+        font-size: 25px;
+    }
+    .text_common {
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+    .block7__textContainer {
+        margin-left: 35px;
+    }
+    .block7__textContainer__text {
+        font-size: 11px;
+    }
+    .block7__btnContainer {
+        margin-left: 0;
+    }
+    .block8__content__column_4__mailImg {
+        top: 105px;
+    }
+    .block2__head {
+        margin-left: 45px;
+    }
+    .block1__body__ordering__inputContainer {
+         margin-left: 30px;
+     }
+    .block1__body__ordering__input {
+        margin-top: 0;
+        width: 345px;
+        height: 40px;
+    }
+    .block1__body__ordering__inputMessage {
+        height: 80px;
+    }
+    .block1__body__ordering__border {
+        margin-left: 115px;
+        margin-top: 45px;
+    }
+    .block7 {
+        margin-top: 0;
+    }
+    .block1__body__img {
+        width: 781px;
+    }
+}

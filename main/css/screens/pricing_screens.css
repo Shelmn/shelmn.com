@@ -47,3 +47,91 @@
         margin-top: 82px;
     }
 }
+@media screen and (max-width: 800px) {
+    .block1__content {
+        padding-left: 20px;
+    }
+    .block1__header__nav {
+        margin-left: 80px;
+    }
+    .block1__header__nav__borderedLink {
+        margin-left: 0;
+        width: 102px;
+    }
+    .nav-link {
+        font-size: 10px;
+    }
+    .block1__header__nav__borderedLink__text {
+        font-size: 9px;
+    }
+    .block1__header__logo {
+        font-size: 20px;
+    }
+    .block1__header__line {
+        height: 15px;
+        margin-left: 10px;
+    }
+    .block1__header__phoneImg {
+        margin-left: 5px;
+    }
+    .block1__header__phoneImg__img {
+        width: 11px;
+    }
+    .block1__header__phoneNum {
+        margin-left: 6px;
+        font-size: 9px;
+    }
+    .block1__body__title {
+        font-size: 30px;
+    }
+    .block1__body__text {
+        font-size: 12px;
+    }
+    .block1__body__btn {
+        width: 170px;
+        height: 42px;
+        font-size: 11px;
+    }
+    .text_title {
+        font-size: 25px;
+    }
+    .text_common {
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+    .block6__head__text {
+        font-size: 12px;
+    }
+    .block6__body__priceBlock {
+        margin-left: 65px;
+    }
+    .block6__body__plansBlock__plans {
+        text-align: left;
+    }
+    .block6__body__plansBlock__plans img {
+        width: 22px;
+    }
+    .block6__body__plansBlock {
+        margin-left: 40px;
+    }
+    .block6__body__plansBlock__plans__plan__text {
+        margin-left: 3px;
+        font-size: 11px;
+        letter-spacing: 0;
+    }
+    .block6__head {
+        margin-left: 55px;
+    }
+    .block7__textContainer {
+        margin-left: 35px;
+    }
+    .block7__textContainer__text {
+        font-size: 11px;
+    }
+    .block7__btnContainer {
+        margin-left: 0;
+    }
+    .block8__content__column_4__mailImg {
+        top: 105px;
+    }
+}
