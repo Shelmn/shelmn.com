@@ -1,0 +1,35 @@
+@media screen and (max-width: 1280px) {
+    .block1__body__img {
+        width: 1263px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .block1__body__img {
+        width: 1007px;
+    }
+    .block1__content {
+        padding-left: 90px;
+    }
+    .block1__header__phoneImg {
+        margin-left: 19px;
+    }
+    .block1__header__nav {
+        margin-left: 172px;
+    }
+    .block7__textContainer {
+        margin-left: 125px;
+    }
+    .block7__btnContainer {
+        margin-left: 65px;
+    }
+    .block8__content__column_4__mail {
+        width: 185px;
+    }
+    .block8__content__column_4__mailImg {
+        left: 175px;
+    }
+    .block8__content {
+        margin-left: 75px;
+        margin-top: 82px;
+    }
+}

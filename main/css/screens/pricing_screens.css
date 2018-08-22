@@ -1,0 +1,49 @@
+@media screen and (max-width: 1280px) {
+    .block1__content {
+        padding-left: 155px;
+    }
+    .block6__body__plansBlock {
+        margin-left: 163px;
+    }
+    .block6__footer {
+        margin-left: 165px;
+    }
+
+}
+@media screen and (max-width: 1024px) {
+    .block1__content {
+        padding-left: 90px;
+    }
+    .block1__header__phoneImg {
+        margin-left: 19px;
+    }
+    .block1__header__nav {
+        margin-left: 172px;
+    }
+
+    .block6__body__priceBlock {
+        margin-left: 75px;
+    }
+    .block6__body__plansBlock {
+        margin-left: 75px;
+    }
+    .block6__footer {
+        margin-left: 75px;
+    }
+    .block7__textContainer {
+        margin-left: 125px;
+    }
+    .block7__btnContainer {
+        margin-left: 65px;
+    }
+    .block8__content__column_4__mail {
+        width: 185px;
+    }
+    .block8__content__column_4__mailImg {
+        left: 175px;
+    }
+    .block8__content {
+        margin-left: 75px;
+        margin-top: 82px;
+    }
+}

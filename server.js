@@ -7,6 +7,8 @@ var bodyParser = require('body-parser');
 const Nexmo = require('nexmo');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
+app.use('/', express.static(__dirname+'/main/css/bootstrap'));
+app.use('/', express.static(__dirname+'/main/css/screens'));
 app.use('/', express.static(__dirname+'/main/html'));
 app.use('/', express.static(__dirname+'/main/css'));
 app.use('/', express.static(__dirname+'/main/img'));
