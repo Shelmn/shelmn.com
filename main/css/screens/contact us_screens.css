@@ -2,6 +2,12 @@
     .block1__body__img {
         width: 1263px;
     }
+    .block1__content {
+        padding-left: 145px;
+    }
+    .block8__content {
+        margin-left: 125px;
+    }
 }
 @media screen and (max-width: 1024px) {
     .block1__body__img {

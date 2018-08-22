@@ -3,7 +3,10 @@
         padding-left: 165px;
     }
     .block2__content {
-        padding-left: 175px;
+        padding-left: 135px;
+    }
+    .block3__head {
+        margin-left: 165px;
     }
     .block3__body__imgContainer {
         margin-left: 155px;
@@ -31,10 +34,10 @@
         margin-left: 140px;
     }
     .block6__head {
-        margin-left: 175px;
+        margin-left: 125px;
     }
     .block6__body__priceBlock {
-        margin-left: 310px;
+        margin-left: 290px;
     }
     .block6__body__plansBlock {
         margin-left: 145px;
@@ -44,6 +47,9 @@
     }
     .block6__footer {
     	margin-left: 145px;
+    }
+    .block8__content {
+        margin-left: 125px;
     }
 }
 

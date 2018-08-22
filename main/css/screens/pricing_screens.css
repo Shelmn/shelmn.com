@@ -1,12 +1,18 @@
 @media screen and (max-width: 1280px) {
     .block1__content {
-        padding-left: 155px;
+        padding-left: 145px;
+    }
+    .block6__body__priceBlock {
+        margin-left: 155px;
     }
     .block6__body__plansBlock {
         margin-left: 163px;
     }
     .block6__footer {
         margin-left: 165px;
+    }
+    .block8__content {
+        margin-left: 125px;
     }
 
 }
