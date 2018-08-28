@@ -14,7 +14,14 @@ app.use('/', express.static(__dirname+'/main/css'));
 app.use('/', express.static(__dirname+'/main/img'));
 app.use('/', express.static(__dirname+'/main/js'));
 app.get('/', function (req, res) {
-    res.sendFile(__dirname+'/main/html/home.html');
+    let user = req.header('user-agent');
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(user)) {
+        res.sendFile(__dirname+'/main/html/mobile.html');
+        console.log("mob");
+    } else {
+        console.log("ok");
+        res.sendFile(__dirname+'/main/html/home.html');
+    }
 });
 app.get('/download', function (req, res) {
     res.download("pic.png");
@@ -46,7 +53,7 @@ function email(obj) {
     let mailOptions = {
         from: 'shelmn',
         to: obj.text,
-        subject: 'Hello ✔',
+        subject: 'Message from shelmn.herokuapp.com',
         text: 'You enter this email: '+obj.text,
     };
     console.log("sended");
@@ -71,7 +78,7 @@ function confirm(obj) {
     let mailOptions = {
         from: 'shelmn',
         to: obj.mail,
-        subject: 'Hello ✔',
+        subject: 'Message from shelmn.herokuapp.com',
         text: 'You enter this data: \n'+" Name: "+obj.name+"\n Phone: "+obj.phone+"\n Your tariff: "+obj.tariff,
     };
     console.log("sended");
@@ -96,7 +103,7 @@ function mailGet (obj) {
         let mailOptions = {
             from: 'shelmn',
             to: obj.mail,
-            subject: 'Hello ✔',
+            subject: 'Message from shelmn.herokuapp.com',
             text: 'You enter this data: \n'+" Name: "+obj.name+"\n Phone: "+obj.phone+"\n Message: "+obj.msg,
         };
         console.log("sended");

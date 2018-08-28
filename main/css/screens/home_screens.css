@@ -260,3 +260,8 @@
         top: 105px;
     }
 }
+@media screen and (max-width: 720px) {
+    .hide {
+        display: none;
+    }
+}

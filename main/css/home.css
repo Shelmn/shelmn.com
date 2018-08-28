@@ -604,3 +604,6 @@ body {
 .bottom_link:hover {
     color: #83a7a5;
 }
+.block1__header_mobile {
+    display: none;
+}
