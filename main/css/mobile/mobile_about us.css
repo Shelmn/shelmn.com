@@ -1,0 +1,36 @@
+.block1 {
+    background-image: url("bg2-1.png");
+}
+.block1__bg {
+    opacity: 0.7;
+}
+.block1__body__title {
+    font-weight: 300;
+}
+.block3__body__imgContainer__author {
+    font-size: 14px;
+    font-weight: 500;
+}
+.block3__body__imgContainer__job {
+    color: #83a7a5;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+.block3 {
+    height: 1000px;
+}
+.block5 {
+    background-image: url("footer2.png");
+    color: white;
+}
+.block7__btnContainer__btn {
+    background-color: #49732f;
+}
+.block5__textContainer__text {
+    color: white;
+}
+.block1__body__btn_a {
+    width: 200px;
+}

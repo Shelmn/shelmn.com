@@ -10,13 +10,15 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use('/', express.static(__dirname+'/main/css/bootstrap'));
 app.use('/', express.static(__dirname+'/main/css/screens'));
 app.use('/', express.static(__dirname+'/main/html'));
+app.use('/', express.static(__dirname+'/main/html/mobile'));
 app.use('/', express.static(__dirname+'/main/css'));
+app.use('/', express.static(__dirname+'/main/css/mobile'));
 app.use('/', express.static(__dirname+'/main/img'));
 app.use('/', express.static(__dirname+'/main/js'));
 app.get('/', function (req, res) {
     let user = req.header('user-agent');
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(user)) {
-        res.sendFile(__dirname+'/main/html/mobile.html');
+        res.sendFile(__dirname+'/main/html/mobile/mobile.html');
         console.log("mob");
     } else {
         console.log("ok");

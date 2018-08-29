@@ -1,0 +1,11 @@
+.block1 {
+    background-image: none;
+    background-color: #eef1ec;
+    height: 1500px;
+    color: #0f5f5c;
+}
+.block1__body {
+    position: static;
+    padding-top: 2rem !important;
+    padding-left: 0;
+}
