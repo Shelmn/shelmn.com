@@ -104,7 +104,6 @@ body {
     letter-spacing: 0.5px;
     opacity: 0.8;
 }
-
 .nav-link:hover {
     opacity: 1;
     color: white;
@@ -548,9 +547,6 @@ body {
     position: absolute;
     top: 87px;
     left: 205px;
-}
-.block8__footer {
-
 }
 .block8__footer__text {
     margin-top: 75px;

@@ -1,0 +1,264 @@
+.block1 {
+    color: white;
+    width: 100%;
+    height: 593px;
+    background-image: url("background-main.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.font_monserat {
+    font-family: Montserrat, sans-serif;
+}
+.font_roboto {
+    font-family: Roboto, sans-serif;
+}
+.font_merriweather {
+    font-family: 'Merriweather', serif;
+}
+.text_common {
+    color: #83a7a5;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+.text_bold_title {
+    font-size: 15px;
+    font-weight: 500;
+}
+.text_title {
+    font-size: 27px;
+    font-weight: 300;
+    letter-spacing: 0.1px;
+}
+.block1__bg {
+    position: absolute;
+    background-color: #2d6e70;
+    opacity: 0.9;
+    width: 100%;
+    height: 593px;
+}
+.block1__header__logo {
+    border-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.nav-link {
+    font-family: Montserrat, sans-serif;
+    color: white;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    opacity: 0.8;
+}
+.block1__header__nav__borderedLink {
+    margin-left: 9px;
+    width: 110px;
+    height: 32px;
+    border-radius: 2px;
+    background-color: #718889;
+    font-size: 10px;
+}
+.block1__header__nav__borderedLink__text {
+    color: white;
+    opacity: 1;
+}
+.block1__header__phoneImg__img {
+   padding-bottom: 7px;
+}
+.block1__header__phoneNum {
+    color: white;
+    margin-left: 6px;
+    margin-top: 2px;
+    letter-spacing: 0.2px;
+    font-family: Montserrat, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+.z-1 {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+.block1__body {
+    position: absolute;
+    padding-left: 2rem;
+    padding-top: 14rem !important;
+}
+
+.block1__body__title {
+    font-size: 34px;
+    font-weight: 500;
+}
+.block1__body__text {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+.block1__body__btn_a {
+    padding-top: 12px;
+    margin-top: 20px;
+    width: 167px;
+    height: 45px;
+    background-color: #6fb048;
+    color: white;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.block1__body__btn {
+    margin-top: 20px;
+    width: 167px;
+    height: 45px;
+    background-color: #6fb048;
+    color: white;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.block2 {
+    width: 100%;
+}
+.block2__head__line {
+    width: 58px;
+    height: 1px;
+    background-color: #6fb048;
+    margin-top: 6px;
+}
+.block3 {
+    width: 100%;
+    height: 650px;
+    background-color: #eef1ec;
+}
+.block3__imgBlock__img {
+    width: 18rem;
+    height: 18rem;
+}
+.block4 {
+    width: 100%;
+    height: 1400px;
+}
+.card-container {
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.block5 {
+    width: 100%;
+    height: 200px;
+    background-image: url("footer.png");
+}
+.block6 {
+    width: 100%;
+    height: 320px;
+}
+.block6__footer__links {
+
+}
+.block6__footer__links__img {
+    width: 27px;
+    height: 27px;
+}
+.block3__textBlock__mainText {
+    color: #83a7a5;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.block3__textBlock__directorName {
+    color: #6fb048;
+    font-weight: 500;
+}
+.block3__textBlock__Inc {
+    font-weight: 400;
+    color: #83a7a5;
+}
+.block6__body__priceBlock__tariff {
+    color: #6fb048;
+    font-size: 14px;
+    font-weight: 500;
+}
+.block6__body__priceBlock__price {
+    color: #0f5f5c;
+    font-family: "Monserrat", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.block6__body__priceBlock__month {
+    color: #0f5f5c;
+    font-family: "Monserrat", sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 3rem;
+}
+.block6__body__priceBlock__btn {
+    width: 123px;
+    height: 36px;
+    border: white;
+    border-radius: 2px;
+    background-color: #83a7a5;
+    color: white;
+    font-family: "Monserrat", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+.btn_green {
+    background-color: #6fb048;
+}
+.btn_modal_send {
+    border-radius: 3px;
+    background-color: #6fb048;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.btn_modal_close {
+    border-radius: 3px;
+    background-color: #83a7a5;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.modal_header {
+    color: #0f5f5c;
+}
+.modal_tariff {
+    color: #6fb048;
+}
+.modalInput {
+    color: #83a7a5;
+    font-size: 13px;
+    padding-left: 15px;
+    width: 205px;
+    height: 40px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+    border: 1px solid #c1d3d2;
+    border-radius: 2px;
+}
+.block7__btnContainer__btn {
+    width: 255px;
+    height: 35px;
+    color: white;
+    border-radius: 1px;
+    background-color: #6fb048;
+    border: none;
+    font-weight: bold;
+    font-size: 11px;
+}
+.block5__textContainer__title {
+   font-weight: 500;
+}
+.block8__content__column_1__title {
+    font-size: 19px;
+    font-weight: 700;
+    color: #212529;
+}
+.block8__content__column_1__mailBold {
+    color: #212529;
+    font-weight: 500;
+}
+.block8__footer__text {
+    font-size: 11px;
+    color: #83a7a5;
+}
+
